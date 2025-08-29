@@ -1,0 +1,17 @@
+[project]
+name = "mcp-selenium-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "autogen>=0.9.9",
+    "autogen-agentchat>=0.7.4",
+    "autogen-core>=0.7.4",
+    "autogen-ext[mcp,openai]>=0.7.4",
+    "fastmcp>=2.11.3",
+    "google-cloud-aiplatform>=1.111.0",
+    "google-generativeai>=0.8.5",
+    "loadenv>=0.1.1",
+    "selenium>=4.35.0",
+]
